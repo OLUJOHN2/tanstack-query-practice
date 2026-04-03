@@ -7,6 +7,7 @@ import RefetchInterval from "./components/7. RefetchInterval";
 import FetchFromMultipleEndpoints from "./components/8. FetchFromMultipleEndpoints";
 import MutateData from "./components/9. MutatingData";
 import Pagination from "./components/10. Pagination";
+import InfiniteQueries from "./components/11. InfiniteQueries";
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       {/* <RefetchInterval /> */}
       {/* <FetchFromMultipleEndpoints /> */}
       {/* <MutateData /> */}
-      <Pagination />
+      {/* <Pagination /> */}
+      <InfiniteQueries />
     </div>
   );
 };
